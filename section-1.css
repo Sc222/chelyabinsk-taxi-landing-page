@@ -84,6 +84,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    background-color: #000000;
     background-image: url("images/section-1-parallax.jpg");
     background-attachment: fixed;
     background-size: cover;
