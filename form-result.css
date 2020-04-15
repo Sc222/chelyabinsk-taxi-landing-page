@@ -1,0 +1,27 @@
+
+.border-icon {
+    border-width:2px !important;
+     padding: 25px;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.text-index{
+    color:#DEE2E6 !important;
+}
+
+.material-icons.green {
+    color: #43A047;
+}
+
+.material-icons.red {
+    color: #E53935;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.material-icons.md-100 {
+    font-size: 100px;
+}
