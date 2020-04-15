@@ -10,25 +10,25 @@
 
 
             <div class="modal-body">
-                <form id = "formididid">
+                <form  id ="formididid" action="mail.php" method="POST">
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" id="lastname-input" placeholder="Фамилия" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
+                        <input type="text" class="form-control form-control-lg" name="UserSurname" id="lastname-input" placeholder="Фамилия" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
 
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" id="firstname-input" placeholder="Имя" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
+                        <input type="text" class="form-control form-control-lg" name="UserName" id="firstname-input" placeholder="Имя" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
 
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" id="patronymic-input" placeholder="Отчество" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
+                        <input type="text" class="form-control form-control-lg" name="MiddleName" id="patronymic-input" placeholder="Отчество" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
 
                     </div>
 
 
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" id="phone-input" placeholder="Телефон" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required>
+                        <input type="text" class="form-control form-control-lg" name="PhoneNumber" id="phone-input" placeholder="Телефон" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required>
 
                     </div>
 
