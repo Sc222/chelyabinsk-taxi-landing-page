@@ -93,18 +93,6 @@
     background-position: top center;
 }
 
-#parallax-world-of-ugg .parallax-two {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    background-image: url("images/section-2-parallax.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
 
 
 /*    MY STYLES                   */
