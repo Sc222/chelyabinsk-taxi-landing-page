@@ -1,9 +1,8 @@
-
 .parallax-two {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url("images/section-2-parallax.jpg");
+    background-image: url("images/section-3-parallax.jpg");
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
