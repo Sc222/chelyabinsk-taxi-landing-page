@@ -10,7 +10,7 @@
 
 
             <div class="modal-body">
-                <form>
+                <form id = "formididid">
                     <div class="form-group">
                         <input type="text" class="form-control form-control-lg" id="lastname-input" placeholder="Фамилия" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
 
@@ -31,9 +31,9 @@
                         <input type="text" class="form-control form-control-lg" id="phone-input" placeholder="Телефон" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required>
 
                     </div>
-      
+
                     <!--todo CODE HERE-->
-                     <button type="submit" class="btn btn-warning btn-lg text-white text-uppercase" style="width:100%;">Отправить</button>
+                    <button type="submit" class="btn btn-warning btn-lg text-white text-uppercase" style="width:100%;">Отправить</button>
                 </form>
             </div>
             <div class="modal-footer">
@@ -42,3 +42,20 @@
         </div>
     </div>
 </div>
+
+
+
+<script>
+    $(document).ready(function() {
+        $(".modal").on("hidden.bs.modal", function() {
+            document.getElementById("formididid").reset();
+          //  $('#formididid').reset();
+            //$('#contact-form').find('input[type="text"]').val('');
+            /*$(this).find("lastname-input").reset();
+            $(this).find("firstname-input").reset();
+            $(this).find("patronymic-input").reset();
+            $(this).find("phone-input").reset();*/
+        });
+    });
+
+</script>
