@@ -84,7 +84,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/test-blur.jpg);
+    background-image: url("images/section-1-parallax.jpg");
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -97,7 +97,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/high-rise-buildings-1381722.jpg);
+    background-image: url("images/section-2-parallax.jpg");
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
