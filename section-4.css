@@ -8,7 +8,7 @@
     height: 1.5em;
     left: 3px;
     top: 0;
-    background: url(images/section-3-map.svg) center/contain no-repeat;
+    background: url(images/section-4-map.svg) center/contain no-repeat;
 }
 #phone-number1::before {
     content: "";
@@ -20,6 +20,6 @@
     height: 1.5em;
     left: 3px;
     top: 0;
-    background: url(images/section-3-call.svg) center/contain no-repeat;
+    background: url(images/section-4-call.svg) center/contain no-repeat;
 }
 

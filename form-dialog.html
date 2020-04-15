@@ -10,7 +10,7 @@
 
 
             <div class="modal-body">
-                <form  id ="formididid" action="mail.php" method="POST">
+                <form  id ="contacts-dialog-form" action="mail.php" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control form-control-lg" name="UserSurname" id="lastname-input" placeholder="Фамилия" pattern="^[а-яёА-ЯЁa-zA-Z ]+$" required>
 
@@ -48,7 +48,7 @@
 <script>
     $(document).ready(function() {
         $(".modal").on("hidden.bs.modal", function() {
-            document.getElementById("formididid").reset();
+            document.getElementById("contacts-dialog-form").reset();
           //  $('#formididid').reset();
             //$('#contact-form').find('input[type="text"]').val('');
             /*$(this).find("lastname-input").reset();
