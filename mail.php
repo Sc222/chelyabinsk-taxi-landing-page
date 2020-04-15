@@ -25,10 +25,10 @@ $mail->Body    = '' .$name . ' ' .$surname.' оставил заявку, его
 $mail->AltBody = '';
 
 if(!$mail->send()) {
-    header('location: error.html');
+    header('location: error');
     //echo 'Error';
 }
 else {
-    header('location: success.html');
+    header('location: success');
 }
 ?>
