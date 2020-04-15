@@ -24,7 +24,11 @@ $mail->Subject = 'Заявка на звонок с сайта аренды ав
 $mail->Body    = '' .$name . ' ' .$surname.' оставил заявку, его телефон ' .$phone;
 $mail->AltBody = '';
 
-/*if(!$mail->send()) {
-    echo 'Error';
-}*/
+if(!$mail->send()) {
+    header('location: error.html');
+    //echo 'Error';
+}
+else {
+    header('location: success.html');
+}
 ?>
