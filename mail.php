@@ -5,7 +5,7 @@ $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['UserName'];
-$surname = $_POST['UserSurname']
+$surname = $_POST['UserSurname'];
 $phone = $_POST['PhoneNumber'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -29,7 +29,7 @@ $mail->addAddress('igorek.chelovek@gmail.com');     // Кому будет ух�
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка на звонок с сайта аренды автомобилей';
-$mail->Body    = '' .$name . ' ' .$UserSurname.' оставил заявку, его телефон ' .$phone. ;
+$mail->Body    = '' .$name . ' ' .$surname.' оставил заявку, его телефон ' .$phone;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
